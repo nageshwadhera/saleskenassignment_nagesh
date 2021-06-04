@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
+
+#mplayer {
+  background: none;
+  outline: none;
+  color: rgb(29, 158, 115);
+  padding: 5px;
+  border: 1px solid rgb(29, 158, 115);
+  border-radius: 25%;
+  height: 70px;
+  width: 100px;
+}
+
+.badge {
+  margin: 65px;
+}
+.badge > div {
+  height: 80px;
+  position: absolute;
+  margin: 1px -3px;
+}
+
+.badge span {
+  border: 0.5px dotted transparent;
+  border-radius: 5%;
+  margin: 30px;
+  padding: 3px 5px;
+}
+#badge1 {
+  background-color: turquoise;
+}
+#badge2,
+#badge1_2 {
+  background-color: thistle;
+}
+#badge3,
+#badge1_3 {
+  background-color: chocolate;
+}
+#badge4,
+#badge1_4 {
+  background-color: cornflowerblue;
+}
+#badge1_1 {
+  border-left: 7px solid turquoise;
+  left: 39%;
+}
+#badge1_2 {
+  border-left: 7px solid thistle;
+  left: 48%;
+}
+#badge1_3 {
+  border-left: 7px solid chocolate;
+  left: 55%;
+}
+#badge1_4 {
+  border-left: 7px solid cornflowerblue;
+  left: 62%;
+}

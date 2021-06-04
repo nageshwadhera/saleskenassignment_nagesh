@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salesken Assignment</title>
+    <script
+      src="https://kit.fontawesome.com/2e8e7bef0f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="./script.js"></script>
+    <link href="./main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="canvas">
+        <div class="badge">
+          <span id="badge1">Introduction</span>
+          <div id="badge1_1"></div>
+          <span id="badge2"> Chorus</span>
+          <div id="badge1_2"></div>
+          <span id="badge3"> Pitch</span>
+          <div id="badge1_3"></div>
+          <span id="badge4"> End</span>
+          <div id="badge1_4"></div>
+        </div>
+        <canvas id="myCanvas" width="1000" height="100"></canvas>
+      </div>
+      <div id="player">
+        <button id="mplayer">
+          <i id="pause_play" class="fas fa-play"></i>
+        </button>
+        <audio>
+          <source src="./music/rehraas.mp3" type="audio/mp3" />
+        </audio>
+      </div>
+    </div>
+  </body>
+</html>
